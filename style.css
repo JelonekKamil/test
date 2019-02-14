@@ -1,0 +1,36 @@
+*{
+   margin: 0;
+   padding:0 ;
+   box-sizing: border-box ;
+}
+.hidden {
+   display: none;
+}
+/*Header ---------------------------*/
+.header-main{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 340%;
+background-color: #353535 ; 
+background-image: url(img/rakieta2.png);
+background-repeat: no-respect; 
+background-position: left bottom;
+background-size: 365px;
+
+}
+
+/*offers                       0------------------- */
+.offers{
+   background-color: #17171a;
+
+}
+.offers-single{
+   width: 250px;
+   background-color:bisque;
+
+}
+.offers-single img{
+   width: 256px;
+} 
