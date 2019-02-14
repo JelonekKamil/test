@@ -34,3 +34,16 @@ background-size: 365px;
 .offers-single img{
    width: 256px;
 } 
+.offer-single h3{
+   font-family: 'Roboro' ,sans-serif ;
+   font-weight: 500;
+   color: #fff;
+   text-transform: uppercase;
+}
+.offer-single p{
+
+   font-family: sans-serif;
+   font-weight: normal;
+   color: #fff ;
+   font-size: 15px;
+}
