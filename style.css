@@ -32,7 +32,9 @@ background-size: 365px;
 
 }
 .offers-single img{
-   width: 256px;
+   width: 200px;
+   margin-bottom:20px;
+   margin-top:20px;
 } 
 .offer-single h3{
    font-family: 'Roboro' ,sans-serif ;
@@ -47,4 +49,18 @@ background-size: 365px;
    color: #fff ;
    font-size: 15px;
    text-align: center;
+}
+.offer single a{
+   font-family: sans-serif ;
+background-color: #F1B26F;
+color: #17171A;
+text-decoration: none;
+padding: 10px 16px;
+border-radius: 6px;
+margin-bottom:10 px;
+transition: .3s;
+}
+.offers-single a: hover {
+   background-color: #fff;
+
 }
