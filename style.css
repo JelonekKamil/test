@@ -17,7 +17,7 @@
    width: 100%;
    height: 340px;
    background-color: #353535;
-   background-image: url(img/rakieta2.png);
+   background-image: url(rakieta2.png);
    background-repeat: no-repeat;
    background-position: left bottom;
    background-size: 365px;
@@ -32,6 +32,10 @@
 
 .offers{
    background-color: #17171A;
+   display:flex;
+   justify-content : space-evenly ;
+   flex-wrap : wrap;
+
 }
 
 .offers-single{
@@ -39,7 +43,7 @@
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   background-color: goldenrod;
+   background-color:black;
    width: 256px;
 }
 
@@ -79,4 +83,26 @@
 
 .offers-single a:hover{
    background-color: #fff;
+}
+
+
+
+/*Navbar */
+
+.navbar{
+
+   height: 100px;
+   background-color: white ;
+   overflow: hidden; 
+}
+.navbar a img{
+
+   height:100px;
+
+}
+.navbar ul {
+   display: flex;
+   list-style: none ;
+   justify-content: center;
+   align-items: center;
 }
