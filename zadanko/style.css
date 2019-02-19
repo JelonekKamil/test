@@ -1,0 +1,35 @@
+.kwadratduzy{
+height: 200 px ;
+width: 200 px ;
+background-color: aqua;
+}
+.kwadratduzy{
+         height: 200 px ;
+         width: 200 px ;
+         background-color: aqua;
+         }
+.kwadratmaly {
+ height: 20 px;
+ width: 20 px;
+ background-color:red ;
+
+}
+
+.poziom{
+ height: 160 px;
+ width:20  px;
+background-color: red;
+justify-content: center;
+
+}
+.pion {
+   height: 20 px;
+   width: 160 px;
+   justify-content: center;
+
+}
+.pion1{
+  height:20;
+  weight:160; 
+  background-position: right center;
+}
